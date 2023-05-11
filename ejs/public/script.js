@@ -1,0 +1,1 @@
+console.log("script.js file se aaya hu vro")
