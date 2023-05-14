@@ -2,7 +2,7 @@ import express from "express";
 import path from "path"
 
 const app = express();
-express.static(path.join(path.resolve(), "./public")); // it's middleware we can't use it directly
+// express.static(path.join(path.resolve(), "./public")); // it's middleware we can't use it directly
 app.use(express.static(path.join(path.resolve(), "./public")));
 // console.log(path.join(path.resolve(), "./public"))
 
